@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body{
+    background: 
+		linear-gradient(135deg, firebrick 25%, transparent 25%) -50px 0,
+		linear-gradient(225deg, firebrick 25%, transparent 25%) -50px 0,
+		linear-gradient(315deg, firebrick 25%, transparent 25%),
+		linear-gradient(45deg, firebrick 25%, transparent 25%);	
+	background-size: 100px 100px;
+	background-color: #F4A460;
+}
+header{
+	margin: 30px 0 10px;
+}
+header p{
+	font-size:35px;
+	text-shadow:0 0 6px yellow;
+}
+h1{
+	margin-bottom: 15px;
+	font-family: 'Dancing Script', cursive;
+	color:white;
+	text-shadow: 0 0 10px purple,
+				 0 0 10px black;
+	font-size:80px;
+}
+div#container{
+	width:50%;
+	margin:0 auto;
+	text-align: center;
+}
+p{
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+#quoteblock{
+	border-radius:25px;
+	background: rgba(204, 204, 204, 0.5);
+	box-shadow: 2px 2px 5px 8px rgba(128,0,0, 0.5);
+	padding:15px 0;
+	margin-bottom: 17px;
+}
+.quote{
+	font-family:candal;
+	color: 	#F0FFF0;
+	text-shadow: 2px 2px 5px black;
+}
+.quote::before,.quote::after{
+	content:"\"";
+}
+.author{
+	margin-top:15px;
+}
+button{
+	outline: none;
+	margin-top:50px;
+	margin-bottom:20px;
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background-color:#20B2AA;
+	border:4px solid white;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Bungee;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 31px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+	text-decoration: none;
+}
+button:hover{
+	background:#008B8B;
+	border:4px solid white;
+}
+button:active{
+	text-shadow: 0px 0px 10px black;
+	color:tan;
+	font-size:16px;
+	text-decoration: none;
+}
+#tweet-quote{
+	background-color: #1b95e0;
+	font-size: 25px;
+	border:none;
+    border-radius:3px;
+    color:#fff;
+    padding: 8px 18px 6px 18px;
+    opacity:1;
+    cursor:pointer;
+}
+#tweet-quote:hover{
+	color:white;
+	background-color: #0084b4;
+}
+#tweet-quote:active{
+	color:white;
+	text-shadow: 0 0 5px white;
+}
